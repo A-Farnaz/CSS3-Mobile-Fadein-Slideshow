@@ -1,0 +1,124 @@
+<style> 
+
+div#copy {
+    font-family: arial;
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    top: 10%;
+    right: 45%;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    width: 22%;
+ }
+
+#text {
+	    font-size: 14px;
+    letter-spacing: 2px;
+    display: block;
+    text-align: center;
+    line-height: 22px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cta1 {
+	 text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 3px solid;
+    padding: 11px;
+    margin-bottom: 3%;
+}
+
+.cta2 {
+	text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 3px solid;
+    padding: 11px;
+}
+
+#copy a {
+	color: #fff;
+    text-decoration: none;
+}
+
+#copy a:hover {
+	text-decoration:underline;
+}
+
+.fade-in {
+	opacity:0;  /* hidde elements on start */
+	-webkit-animation:fadeIn ease-in 1;  /* calling keyframe named fadeIn, using animattion ease-in and repeating it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0s;
+-moz-animation-delay: 0s;
+animation-delay: 0s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay:0.5s;
+animation-delay: 0.5s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay: 1s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 1.5s;
+-moz-animation-delay: 1.5s;
+animation-delay: 1.5s;
+}
+
+
+.box{
+width: 800px;
+height: 300px;
+position: absolute;
+margin: 10px;
+padding: 20px;  
+float: left;
+
+}
+
+#wrapper {
+	margin:0 auto;
+	width:1000px;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+</style>
+
+<div id="wrapper">
+		<div><img id="img1" class="box fade-in one" src="http://media.monsoon.co.uk/assets/images/accessorize/feature/2015/13082015/Colour-Chart_nails_01B_02.jpg" /></div>
+
+    	<div><img id="img2" class="box fade-in two" src="http://media.monsoon.co.uk/assets/images/accessorize/feature/2015/13082015/Colour-Chart_2B_02.jpg" /></div>
+
+    	<div><img id="img3" class="box fade-in three" src="http://media.monsoon.co.uk/assets/images/accessorize/feature/2015/13082015/Colour-Chart_eyes_01.jpg" /></div>
+
+    	<div><img id="img4" class="box fade-in four" src="http://media.monsoon.co.uk/assets/images/accessorize/feature/2015/13082015/Colour-Chart_lips_01.jpg" /></div>
+     
+ </div>
